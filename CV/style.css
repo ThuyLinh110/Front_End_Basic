@@ -1,0 +1,141 @@
+.full-screen{
+ height: 200vh;
+}
+body{
+    margin:0;
+    background-color: rgba(137, 235, 238, 0.397);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.item1{
+    
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 350px;
+    height: 100vh;
+    position:fixed;
+    left: 35px;
+   
+}
+ .item2{
+    width: 750px;
+    height: 300vh;
+    position: relative;
+    left: 390px;
+}
+.container{
+    position:relative;
+    display:flexbox;
+    
+}
+.container > div{
+  
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(102, 164, 245);
+    
+}
+.text1{
+    color:rgba(66, 193, 243, 0.932);
+    font-weight:bolder;
+    text-shadow: 2px 2px 2px white;
+}
+
+.title{
+    color:black;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+p{
+    color:rgba(48, 43, 43, 0.884);
+    font-size:15px; 
+    text-align: left;
+    margin-left: 20px;
+}
+.line1{
+    border-bottom: 2px solid rgb(102, 164, 245);
+    margin: 5px 100px;
+}
+a{ 
+    color:rgb(137, 209, 238);
+    text-decoration: none;
+    display: inline-box;
+    font-size: 25px;
+}
+section{
+    display: inline-block;
+    margin-top: 2px;
+  
+    width: 100%;
+}
+.container-Project{
+    display:grid;
+    grid-template-columns:  auto auto ;
+    margin-left: 25px;
+    padding: 10px;
+    grid-gap: 20px ;
+}
+.item-Project{
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    position:relative;
+   
+}
+.img-Project{
+    width: 350px;
+    height: 250px;
+    position:relative; 
+    transition: all  0.5s ease-in-out;
+}
+.box-itemProject{
+    width: 80%;
+    position:absolute;
+    text-align: center;
+    color:white;
+    box-sizing: border-box;
+    bottom: 50px;
+    left:30px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.text-Project{
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;  
+}
+.img-Project:hover{
+    transform:scale(1.2);
+    opacity: 0.8;
+}
+.img-Project:hover ~.box-itemProject{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.container-Blog{
+    display:grid;
+    grid-template-columns:  auto auto auto;
+    margin-left: 20px;
+    padding: 10px;
+    grid-gap: 10px ;
+}
+.item-Blog{
+    width: 230px;
+    height: 350px;
+    position:relative;
+    background-color: pink;
+}
+.img-Blog{
+    width: 230px;
+    height: 350px;
+}
+
+
+
+
