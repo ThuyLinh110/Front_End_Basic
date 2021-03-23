@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY CV</title>
+    <title>NguyenThuyLinh</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,11 +15,12 @@
         <div class="item1">
             <img class="avatar" src="./avatar1.jpg">
             <h4 class="text1">NGUYEN THUY LINH</h4>
-
-            <a href="#About">CÁ NHÂN </a> <br>
-            <a href="#Project">DỰ ÁN</a> <br>
+            <a href="#About">ABOUT</a> <br>
+            <a href="#Education">EDUCATION</a> <br>
+            <a href="#Skill">SKILL</a> <br>
+            <a href="#Project">PROJECTS</a> <br>
             <a href="#Blog">BLOG</a> <br>
-            <a href="#Contact">LIÊN HỆ</a>
+            <a href="#Contact">CONTACT</a>
 
         </div>
         <div class="item2">
@@ -27,78 +28,126 @@
             <p class="line1"></p>
             <section id="About">
                 <div>
-
-                    <h3 class="title">THÔNG TIN CÁ NHÂN</h3>
-                    <p>Họ & Tên: Nguyễn Thùy Linh</p>
-                    <p>Ngày Sinh: 01/10/2001</p>
-                    <p>Quê quán: Quảng Nam</p>
-                    <p>Địa chỉ hiện tại: 120/12 Nguyễn Lương Bằng, Liên Chiểu, Đà Nẵng</p>
-                    <p>Email: thuylinh1102001@gmail.com</p>
-                    <p>SĐT: 0365788172</p>
-                </div>
-
-                <div>
-                    <h3 class="title">SỞ THÍCH</h3>
-                    <p>CA HÁT</p>
-                    <P>NẤU ĂN</P>
+                    <p class="title">INFORMATION</p>
+                    <p class="p1">Full Name: Nguyen Thuy Linh</p>
+                    <p class="p1">Date Of Birth: 01/10/2001</p>
+                    <p class="p1">Hometown: Quang Nam</p>
+                    <p class="p1">Address: 120/12 Nguyen Luong Bang, Lien Chieu, Da Nang</p>
+                    <p class="p1">Email: thuylinh1102001@gmail.com</p>
+                    <p class="p1">Phone number: 0365788172</p>
                 </div>
                 <div>
-                    <h3 class="title"><a href="./blog1.html" target="_top">TRÌNH ĐỘ</a></h3>
+                    <h3 class="title">INTEREST</h3>
+                    <div data-wow-delay="0.1s"
+                        style="visibility: visible; animation-delay:0.1s; animation-name:fadeIn;">
+                        <i class="fa fa-glass" data-position="top" data-delay="50" data tooltip="Drinking"></i>
+                        <i class="fa fa-headphones" data-position="top" data-delay="50" data tooltip="Music"></i>
+                        <i class="fa fa-plane" data-position="top" data-delay="50" data tooltip="Travel"></i>
+                    </div>
+
 
                 </div>
-                <section id="Project">
-                    <h3 class="title">DỰ ÁN</h3>
-                    <div class="container-Project">
 
-                        <div class="item-Project">
+            </section>
+            <section id="Education">
+                <div>
+                    <i class="fa fa-graduation-cap" style="font-size: 60px; float:inline-end;"></i>
+                    <p class="title">EDUCATION</p>
+               
+                    <ul>
+                        <li class="p1 p2">HIGH SCHOOL</li>
+                        <p class="p1">Phan Chau Trinh High School</p>
+                        <li class="p1 p2">UNIVERSITY</li>
+                        <p class="p1">DaNang University Science And Technology</p>
+                        <li class="p1 p2">S-GROUP</li>
+                        <p class="p1">IT Member</p>
+                    </ul>
 
+
+                </div>
+            </section>
+            <section id="Skill">
+                <div>
+                    <h3 class="title">SKILL</h3>
+                    <div>
+                        <p class="p1 p2 p3">HTML</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 70%;"></div>
+                        </div>
+                        <p class="p1 p2 p3">CSS</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 40%;"></div>
+                        </div>
+                        <p class="p1 p2 p3">Javascript</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 10%;"></div>
+                        </div>
+                        <p class="p1 p2 p3">PHP</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 10%;"></div>
+                        </div>
+                        <p class="p1 p2 p3">Java</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 15%;"></div>
+                        </div>
+                        <p class="p1 p2 p3">SQL</p>
+                        <div class="bar-skill">
+                            <div class="bar-skill-level" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="Project">
+                <h3 class="title">PROJECTS</h3>
+                <div class="container-Project">
+
+                    <div class="item-Project">
+                        <a href="./project-full1.html">
                             <img class="img-Project" src="./project1.jpg">
 
-                            <div class="box-itemProject">
-                                <p class="text-Project">PHẦN MỀM QUẢN LÍ KHÁCH SẠN</p>
-                            </div>
-
-
+                        <div class="box-itemProject">
+                            <p class="text-Project">HOTEL MANAGEMENT SOFTWARE</p>
                         </div>
-                        <div class="item-Project">
-
-                            <img class="img-Project" src="./project2.jpg">
-
-                            <div class="box-itemProject">
-                                <p class="text-Project">CHATBOT TƯ VẤN THÔNG TIN</p>
-                            </div>
-                        </div>
-                        <div class="item-Project">
-
-                            <img class="img-Project" src="./project3.jpg">
-
-                        </div>
-                        <div class="item-Project">
-
-                            <img class="img-Project" src="./project4.jpg">
-
-                        </div>
-                        <div class="item-Project">
-
-                            <img class="img-Project" src="./project5.jpg">
-
-                        </div>
-                        <div class="item-Project">
-
-                            <img class="img-Project" src="./project6.jpg">
-                        </div>
+                        </a>
+                        
 
                     </div>
-                </section>
+                    <div class="item-Project">
+
+                        <img class="img-Project" src="./project2.jpg">
+
+                        <div class="box-itemProject">
+                            <p class="text-Project">CHATBOT </p>
+                        </div>
+                    </div>
+                    <div class="item-Project">
+
+                        <img class="img-Project" src="./project3.jpg">
+
+                    </div>
+                    <div class="item-Project">
+
+                        <img class="img-Project" src="./project4.jpg">
+
+                    </div>
+
+
+                </div>
+            </section>
 
             </section>
             <section id="Blog">
                 <h3 class="title">BLOG</h3>
                 <div class="container-Blog">
                     <div class="item-Blog">
-                        <a href="./blog1.html" target="_self">
-                        <img class="img-Blog" src="./blog1.jpg" alt="">
+                        <a href="./blog-full-post1.html">
+                            <img class="img-Blog" src="./blog1.jpg" alt="">
+
                         </a>
+
+
                     </div>
                     <div class="item-Blog">
                         <img class="img-Blog" src="./blog2.jpg" alt="">
@@ -119,10 +168,23 @@
             </section>
 
             <section id="Contact">
-
+                <h3 class="title">CONTACT</h3>
+                <div class="container-Contact">
+                    <div class="item-Contact">
+                        <label for="name" class="p">Name *</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="item-Contact">
+                        <label for="email" class="p">Email *</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="item-Contact">
+                        <label for="message" class="p">Message *</label>
+                        <input type="message" class="form-control" id="message">
+                    </div>
+                    <button type="submit" id="form-submit" class="btn-submit">Submit</button>
             </section>
         </div>
-
 
     </div>
 </body>
